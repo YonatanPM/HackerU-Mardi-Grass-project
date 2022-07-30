@@ -1,0 +1,148 @@
+/* whole pages style  */
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  font-size: 3em !important;
+  font-family: "Pattaya";
+}
+
+h1 h2 {
+  font-size: 2em;
+  font-family: "Pattaya";
+}
+
+p {
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+}
+
+/*Navbar*/
+.edges {
+  background: linear-gradient(45deg, #8cbf3f 25%, #f2cc0f 25%, #f2cc0f 50%, #8cbf3f 50%, #8cbf3f 75%, #f2cc0f 75%, #f2cc0f 100%);
+  background-size: 56.57px 56.57px;
+  padding: 10px;
+}
+
+.nb-start {
+  background-color: #9453a6;
+}
+
+#img-logo {
+  height: 20vh;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 3em;
+}
+
+/*homepage*/
+/*Carusel*/
+.carousel-image {
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.pic-text {
+  background-color: #0d0d0d;
+  opacity: 0.7;
+  font-family: "Roboto";
+}
+
+.all-sections {
+  padding: 2%;
+  background-color: #f2f2f2;
+}
+
+.card-div {
+  width: 200px;
+  margin: 20px;
+}
+
+.logo-images {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.card-body {
+  width: 200px;
+}
+
+/* media page style */
+/*picture */
+.light-box-image {
+  height: 400px;
+  width: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-shadow: 8px 5px 11px -4px rgba(0, 0, 0, 0.96);
+          box-shadow: 8px 5px 11px -4px rgba(0, 0, 0, 0.96);
+}
+
+.light-box-image:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+
+iframe {
+  width: 500px;
+  height: auto;
+  -webkit-box-shadow: 8px 5px 11px -4px rgba(0, 0, 0, 0.96);
+          box-shadow: 8px 5px 11px -4px rgba(0, 0, 0, 0.96);
+}
+
+/*about*/
+#LaToya-Cantrell {
+  height: 500px;
+  width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#map {
+  height: auto;
+  width: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+/*FAQ */
+.accordion-item button {
+  background-color: #8cbf3f;
+  color: #f2f2f2;
+}
+
+.accordion-item h2 {
+  color: #f2f2f2;
+}
+
+.accordion-body {
+  background-color: #9453a6;
+  color: #f2f2f2;
+}
+
+/*Contact*/
+#submitButton {
+  background-color: #9453a6;
+  color: #f2f2f2;
+}
+
+.contactForm {
+  background-color: #8cbf3f;
+  color: #f2f2f2;
+}
+/*# sourceMappingURL=style.css.map */
